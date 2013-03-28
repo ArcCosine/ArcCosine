@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Octopress wiz Github page]]></title>
+  <link href="http://ArcCosine.github.com/ArcCosine/atom.xml" rel="self"/>
+  <link href="http://ArcCosine.github.com/ArcCosine/"/>
+  <updated>2013-03-28T09:21:19+09:00</updated>
+  <id>http://ArcCosine.github.com/ArcCosine/</id>
+  <author>
+    <name><![CDATA[Arc Cosine]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[日本語タイトル]]></title>
+    <link href="http://ArcCosine.github.com/ArcCosine/blog/2013/03/28/first-page/"/>
+    <updated>2013-03-28T08:54:00+09:00</updated>
+    <id>http://ArcCosine.github.com/ArcCosine/blog/2013/03/28/first-page</id>
+    <content type="html"><![CDATA[<h1>あーようやくセットアップできたわー。マジ辛いわー</h1>
+
+<p>Octopressで謎のエラーが出ていてデプロイできなかったけれど、出来た。
+jsonがrequireできねーできねーってエラーだったんだけど、コメントアウトしたら動いた。
+標準で対応するようになったからなのかな？
+まあ、いいや。
+細かいことは気にしない事にしよう。</p>
+]]></content>
+  </entry>
+  
+</feed>
