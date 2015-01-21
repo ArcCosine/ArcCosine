@@ -1,4 +1,0 @@
-ArcCosine
-=========
-
-github base blog
