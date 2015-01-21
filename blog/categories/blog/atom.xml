@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Blog | Octopress wiz Github page]]></title>
+  <link href="http://arccosine.github.io/ArcCosine/blog/categories/blog/atom.xml" rel="self"/>
+  <link href="http://arccosine.github.io/ArcCosine/"/>
+  <updated>2015-01-22T07:41:54+09:00</updated>
+  <id>http://arccosine.github.io/ArcCosine/</id>
+  <author>
+    <name><![CDATA[Arc Cosine]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Blog20150122]]></title>
+    <link href="http://arccosine.github.io/ArcCosine/blog/2015/01/22/blog20150122/"/>
+    <updated>2015-01-22T06:37:00+09:00</updated>
+    <id>http://arccosine.github.io/ArcCosine/blog/2015/01/22/blog20150122</id>
+    <content type="html"><![CDATA[<h1>久々にこちらのブログも更新しましょう</h1>
+
+<p>単に、git push出来るかのテストなのですが。<br/>
+そもそも、誰もこのブログの存在を知らないかもしれない。<br/>
+ちなみに、これは全くの余談なのだが、最近ようやく時間の余裕を見いだせるようになってきた。<br/>
+今まで色々がむしゃらにやり続けていたけれど、それだと体持たないよね。<br/>
+年齢が増えるごとに出来る事よりも出来ないことの方が増えてきたような気がする。<br/>
+まあ、全て気のせいだと自分に言い聞かせればまだまだ動けるのが今なんだと思う。<br/>
+人間的な成長としては、これからは超急成長というよりかは、円熟期に近いものがある。<br/>
+それまで得てきた経験をベースに動くことが多くなるのでは無いだろうか。<br/>
+案外そうでもないかもしれないが。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[日本語タイトル]]></title>
+    <link href="http://arccosine.github.io/ArcCosine/blog/2013/03/28/first-page/"/>
+    <updated>2013-03-28T08:54:00+09:00</updated>
+    <id>http://arccosine.github.io/ArcCosine/blog/2013/03/28/first-page</id>
+    <content type="html"><![CDATA[<h1>あーようやくセットアップできたわー。マジ辛いわー</h1>
+
+<p>Octopressで謎のエラーが出ていてデプロイできなかったけれど、出来た。
+jsonがrequireできねーできねーってエラーだったんだけど、コメントアウトしたら動いた。
+標準で対応するようになったからなのかな？
+まあ、いいや。
+細かいことは気にしない事にしよう。</p>
+]]></content>
+  </entry>
+  
+</feed>

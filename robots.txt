@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://arccosine.github.io/ArcCosine/sitemap.xml 
