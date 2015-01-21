@@ -97,6 +97,68 @@
       
   <header class="page-header">
     
+      <h1 class="entry-title"><a href="/ArcCosine/blog/2015/01/22/work/">俺得メモ</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-01-22T08:16:07+09:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>22</span><span class='date-suffix'>nd</span>, <span class='date-year'>2015</span></span> <span class='time'>8:16 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h1>完全に Octopress の使い方を忘れていたのでメモ</h1>
+
+<p>一連の流れを書いておく</p>
+
+<ul>
+<li>記事を作成する</li>
+<li>サイトを構築し直す</li>
+<li>deployする</li>
+</ul>
+
+
+<h2>記事を作成する</h2>
+
+<pre><code>rake new_post
+</code></pre>
+
+<p>で新しい記事を作る。<br/>
+そうすると、 source/_posts の中に新しい markdown ファイルができるのでそれを適当に編集する。</p>
+
+<h2>サイトを構築し直す</h2>
+
+<pre><code>rake generate
+</code></pre>
+
+<p>で構築する。時間は大体数秒程度</p>
+
+<h2>deployする</h2>
+
+<pre><code>rake deploy
+</code></pre>
+
+<p>で本番に反映する。<br/>
+要するに、new_post→generate→deployでヒャッハー出来る仕組み。<br/>
+絶対忘れるわ。</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header class="page-header">
+    
       <h1 class="entry-title"><a href="/ArcCosine/blog/2015/01/22/blog20150122/">もやっとボール投げたいわ</a></h1>
     
     
@@ -177,6 +239,10 @@ jsonがrequireできねーできねーってエラーだったんだけど、コ
     <section class="well">
   <ul id="recent_posts" class="nav nav-list">
     <li class="nav-header">Recent Posts</li>
+    
+      <li class="post">
+        <a href="/ArcCosine/blog/2015/01/22/work/">俺得メモ</a>
+      </li>
     
       <li class="post">
         <a href="/ArcCosine/blog/2015/01/22/blog20150122/">もやっとボール投げたいわ</a>

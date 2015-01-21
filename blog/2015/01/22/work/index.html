@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Category: blog - Octopress wiz Github page</title>
+  <title>俺得メモ - Octopress wiz Github page</title>
   <meta name="author" content="Arc Cosine">
 
   
-  <meta name="description" content="Category: blog">
+  <meta name="description" content="">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://arccosine.github.io/ArcCosine/blog/categories/blog">
+  <link rel="canonical" href="http://arccosine.github.io/ArcCosine/blog/2015/01/22/work">
   <link href="/ArcCosine/favicon.png" rel="icon">
   <link href="/ArcCosine/stylesheets/bootstrap/bootstrap.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/ArcCosine/stylesheets/bootstrap/responsive.css" media="screen, projection" rel="stylesheet" type="text/css">
@@ -90,57 +90,102 @@
   <div class="container">
     <div class="row-fluid">
       
-<article role="article" class="span9">
+<article class="hentry span9" role="article">
 
   
   <header class="page-header">
-    <h1 class="entry-title">Category: Blog</h1>
+    
+      <h1 class="entry-title">俺得メモ</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-01-22T08:16:07+09:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>22</span><span class='date-suffix'>nd</span>, <span class='date-year'>2015</span></span> <span class='time'>8:16 am</span></time>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives" class="category">
 
 
+<div class="entry-content"><h1>完全に Octopress の使い方を忘れていたのでメモ</h1>
 
-  
-  <h1>2015</h1>
+<p>一連の流れを書いておく</p>
 
-<article>
-  <div class="well">
+<ul>
+<li>記事を作成する</li>
+<li>サイトを構築し直す</li>
+<li>deployする</li>
+</ul>
 
-<h2><a href="/ArcCosine/blog/2015/01/22/blog20150122/">もやっとボール投げたいわ</a></h2>
-<time datetime="2015-01-22T06:37:00+09:00" pubdate><span class='month'>Jan</span> <span class='day'>22</span> <span class='year'>2015</span></time>
 
-<footer>
-  <span class="categories">posted in <a class='category' href='/ArcCosine/blog/categories/blog/'>blog</a></span>
-</footer>
+<h2>記事を作成する</h2>
 
+<pre><code>rake new_post
+</code></pre>
+
+<p>で新しい記事を作る。<br/>
+そうすると、 source/_posts の中に新しい markdown ファイルができるのでそれを適当に編集する。</p>
+
+<h2>サイトを構築し直す</h2>
+
+<pre><code>rake generate
+</code></pre>
+
+<p>で構築する。時間は大体数秒程度</p>
+
+<h2>deployする</h2>
+
+<pre><code>rake deploy
+</code></pre>
+
+<p>で本番に反映する。<br/>
+要するに、new_post→generate→deployでヒャッハー出来る仕組み。<br/>
+絶対忘れるわ。</p>
 </div>
 
-</article>
 
-
-
+  <footer>
+    <p class="meta">
+      
   
-  <h1>2013</h1>
 
-<article>
-  <div class="well">
+<span class="byline author vcard">Posted by <span class="fn">Arc Cosine</span></span>
 
-<h2><a href="/ArcCosine/blog/2013/03/28/first-page/">日本語タイトル</a></h2>
-<time datetime="2013-03-28T08:54:00+09:00" pubdate><span class='month'>Mar</span> <span class='day'>28</span> <span class='year'>2013</span></time>
+      
 
-<footer>
-  <span class="categories">posted in <a class='category' href='/ArcCosine/blog/categories/blog/'>blog</a></span>
-</footer>
 
+
+
+<time class='entry-date' datetime='2015-01-22T08:16:07+09:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>22</span><span class='date-suffix'>nd</span>, <span class='date-year'>2015</span></span> <span class='time'>8:16 am</span></time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://arccosine.github.io/ArcCosine/blog/2015/01/22/work/" data-via="" data-counturl="http://arccosine.github.io/ArcCosine/blog/2015/01/22/work/" >Tweet</a>
+  
+  
+  
 </div>
 
-</article>
-
-</div>
-
-  
+    
+    
+    <ul class="pager">
+      
+      <li class="previous"><a class="basic-alignment left"
+        href="/ArcCosine/blog/2015/01/22/blog20150122/" title="Previous Post:
+        もやっとボール投げたいわ">&laquo; もやっとボール投げたいわ</a></li>
+      
+      <li><a href="/ArcCosine/blog/archives">Blog Archives</a></li>
+      
+    </ul>
+  </footer>
 </article>
 
 <aside class="sidebar-nav span3">

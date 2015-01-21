@@ -4,7 +4,7 @@
   <title><![CDATA[Octopress wiz Github page]]></title>
   <link href="http://arccosine.github.io/ArcCosine/atom.xml" rel="self"/>
   <link href="http://arccosine.github.io/ArcCosine/"/>
-  <updated>2015-01-22T08:13:24+09:00</updated>
+  <updated>2015-01-22T08:21:46+09:00</updated>
   <id>http://arccosine.github.io/ArcCosine/</id>
   <author>
     <name><![CDATA[Arc Cosine]]></name>
@@ -12,6 +12,48 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[俺得メモ]]></title>
+    <link href="http://arccosine.github.io/ArcCosine/blog/2015/01/22/work/"/>
+    <updated>2015-01-22T08:16:07+09:00</updated>
+    <id>http://arccosine.github.io/ArcCosine/blog/2015/01/22/work</id>
+    <content type="html"><![CDATA[<h1>完全に Octopress の使い方を忘れていたのでメモ</h1>
+
+<p>一連の流れを書いておく</p>
+
+<ul>
+<li>記事を作成する</li>
+<li>サイトを構築し直す</li>
+<li>deployする</li>
+</ul>
+
+
+<h2>記事を作成する</h2>
+
+<pre><code>rake new_post
+</code></pre>
+
+<p>で新しい記事を作る。<br/>
+そうすると、 source/_posts の中に新しい markdown ファイルができるのでそれを適当に編集する。</p>
+
+<h2>サイトを構築し直す</h2>
+
+<pre><code>rake generate
+</code></pre>
+
+<p>で構築する。時間は大体数秒程度</p>
+
+<h2>deployする</h2>
+
+<pre><code>rake deploy
+</code></pre>
+
+<p>で本番に反映する。<br/>
+要するに、new_post→generate→deployでヒャッハー出来る仕組み。<br/>
+絶対忘れるわ。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[もやっとボール投げたいわ]]></title>
