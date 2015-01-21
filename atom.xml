@@ -4,7 +4,7 @@
   <title><![CDATA[Octopress wiz Github page]]></title>
   <link href="http://arccosine.github.io/ArcCosine/atom.xml" rel="self"/>
   <link href="http://arccosine.github.io/ArcCosine/"/>
-  <updated>2015-01-22T08:21:46+09:00</updated>
+  <updated>2015-01-22T08:27:14+09:00</updated>
   <id>http://arccosine.github.io/ArcCosine/</id>
   <author>
     <name><![CDATA[Arc Cosine]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[git メモ]]></title>
+    <link href="http://arccosine.github.io/ArcCosine/blog/2015/01/22/git-memo/"/>
+    <updated>2015-01-22T08:26:06+09:00</updated>
+    <id>http://arccosine.github.io/ArcCosine/blog/2015/01/22/git-memo</id>
+    <content type="html"><![CDATA[<h1>Git用のメモ</h1>
+
+<pre><code>git remote set-url origin git@git.example.com:foo/bar.git
+</code></pre>
+
+<p>remoteのoriginを変更したい時は、↑のコマンドで変更できる。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[俺得メモ]]></title>
