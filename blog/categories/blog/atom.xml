@@ -4,7 +4,7 @@
   <title><![CDATA[Category: blog | Octopress wiz Github page]]></title>
   <link href="http://arccosine.github.io/ArcCosine/blog/categories/blog/atom.xml" rel="self"/>
   <link href="http://arccosine.github.io/ArcCosine/"/>
-  <updated>2015-01-22T08:27:14+09:00</updated>
+  <updated>2015-01-22T12:44:16+09:00</updated>
   <id>http://arccosine.github.io/ArcCosine/</id>
   <author>
     <name><![CDATA[Arc Cosine]]></name>
@@ -18,7 +18,7 @@
     <link href="http://arccosine.github.io/ArcCosine/blog/2015/01/22/blog20150122/"/>
     <updated>2015-01-22T06:37:00+09:00</updated>
     <id>http://arccosine.github.io/ArcCosine/blog/2015/01/22/blog20150122</id>
-    <content type="html"><![CDATA[<h1>久々にこちらのブログも更新しましょう</h1>
+    <content type="html"><![CDATA[<h2>久々にこちらのブログも更新しましょう</h2>
 
 <p>単に、git push出来るかのテストなのですが。<br/>
 そもそも、誰もこのブログの存在を知らないかもしれない。<br/>
@@ -37,7 +37,7 @@
     <link href="http://arccosine.github.io/ArcCosine/blog/2013/03/28/first-page/"/>
     <updated>2013-03-28T08:54:00+09:00</updated>
     <id>http://arccosine.github.io/ArcCosine/blog/2013/03/28/first-page</id>
-    <content type="html"><![CDATA[<h1>あーようやくセットアップできたわー。マジ辛いわー</h1>
+    <content type="html"><![CDATA[<h2>あーようやくセットアップできたわー。マジ辛いわー</h2>
 
 <p>Octopressで謎のエラーが出ていてデプロイできなかったけれど、出来た。
 jsonがrequireできねーできねーってエラーだったんだけど、コメントアウトしたら動いた。

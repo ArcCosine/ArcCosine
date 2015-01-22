@@ -4,7 +4,7 @@
   <title><![CDATA[Octopress wiz Github page]]></title>
   <link href="http://arccosine.github.io/ArcCosine/atom.xml" rel="self"/>
   <link href="http://arccosine.github.io/ArcCosine/"/>
-  <updated>2015-01-22T08:27:14+09:00</updated>
+  <updated>2015-01-22T12:44:16+09:00</updated>
   <id>http://arccosine.github.io/ArcCosine/</id>
   <author>
     <name><![CDATA[Arc Cosine]]></name>
@@ -18,7 +18,7 @@
     <link href="http://arccosine.github.io/ArcCosine/blog/2015/01/22/git-memo/"/>
     <updated>2015-01-22T08:26:06+09:00</updated>
     <id>http://arccosine.github.io/ArcCosine/blog/2015/01/22/git-memo</id>
-    <content type="html"><![CDATA[<h1>Git用のメモ</h1>
+    <content type="html"><![CDATA[<h2>Git用のメモ</h2>
 
 <pre><code>git remote set-url origin git@git.example.com:foo/bar.git
 </code></pre>
@@ -32,7 +32,7 @@
     <link href="http://arccosine.github.io/ArcCosine/blog/2015/01/22/work/"/>
     <updated>2015-01-22T08:16:07+09:00</updated>
     <id>http://arccosine.github.io/ArcCosine/blog/2015/01/22/work</id>
-    <content type="html"><![CDATA[<h1>完全に Octopress の使い方を忘れていたのでメモ</h1>
+    <content type="html"><![CDATA[<h2>完全に Octopress の使い方を忘れていたのでメモ</h2>
 
 <p>一連の流れを書いておく</p>
 
@@ -43,7 +43,7 @@
 </ul>
 
 
-<h2>記事を作成する</h2>
+<h3>記事を作成する</h3>
 
 <pre><code>rake new_post
 </code></pre>
@@ -51,14 +51,14 @@
 <p>で新しい記事を作る。<br/>
 そうすると、 source/_posts の中に新しい markdown ファイルができるのでそれを適当に編集する。</p>
 
-<h2>サイトを構築し直す</h2>
+<h3>サイトを構築し直す</h3>
 
 <pre><code>rake generate
 </code></pre>
 
 <p>で構築する。時間は大体数秒程度</p>
 
-<h2>deployする</h2>
+<h3>deployする</h3>
 
 <pre><code>rake deploy
 </code></pre>
@@ -74,7 +74,7 @@
     <link href="http://arccosine.github.io/ArcCosine/blog/2015/01/22/blog20150122/"/>
     <updated>2015-01-22T06:37:00+09:00</updated>
     <id>http://arccosine.github.io/ArcCosine/blog/2015/01/22/blog20150122</id>
-    <content type="html"><![CDATA[<h1>久々にこちらのブログも更新しましょう</h1>
+    <content type="html"><![CDATA[<h2>久々にこちらのブログも更新しましょう</h2>
 
 <p>単に、git push出来るかのテストなのですが。<br/>
 そもそも、誰もこのブログの存在を知らないかもしれない。<br/>
@@ -93,7 +93,7 @@
     <link href="http://arccosine.github.io/ArcCosine/blog/2013/03/28/first-page/"/>
     <updated>2013-03-28T08:54:00+09:00</updated>
     <id>http://arccosine.github.io/ArcCosine/blog/2013/03/28/first-page</id>
-    <content type="html"><![CDATA[<h1>あーようやくセットアップできたわー。マジ辛いわー</h1>
+    <content type="html"><![CDATA[<h2>あーようやくセットアップできたわー。マジ辛いわー</h2>
 
 <p>Octopressで謎のエラーが出ていてデプロイできなかったけれど、出来た。
 jsonがrequireできねーできねーってエラーだったんだけど、コメントアウトしたら動いた。
